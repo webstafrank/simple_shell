@@ -1,16 +1,18 @@
 #include "main.h"
-
+/**
+ * main - prints prompt
+ *
+ * return - always zero
+ */
 int main(void)
 {
-	size_t j =0;
+	size_t j = 0;
 	char *text = NULL;
 
-	text = malloc(sizeof(char) * 10);
 	printf("$ ");
 	getline(&text, &j, stdin);
-	printf("size of text buffer : %ld\n", j);
-
+	printf("%s", text);
+	
 	free(text);
 	return (0);
 }
-

@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include "main.h"
+/**
+ * main -  
+ */
 int main(int ac, char **av)
 {
 	int v;
