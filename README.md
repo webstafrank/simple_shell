@@ -335,6 +335,7 @@ Repo:
 
 GitHub repository: simple_shell
     
+<<<<<<< HEAD
 =======
 Crollaboration Project
 Repo name: 0x16.C-simple shell
@@ -355,4 +356,6 @@ Creating  a parser that breaks down the commands and interprete them.
 -Error handling
 -Testing with commands
 
+=======
+>>>>>>> e6aac3af9f85c5457a438b03b387a383363b4ceb
 
