@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - execve example
  *
@@ -14,5 +15,4 @@ int main(void)
         perror("Error:");
     }
     printf("After execve\n");
-    return (0);
 }
