@@ -1,0 +1,2 @@
+#!/bin/bash
+mv /root/simple_shell/0x00-shell/{.,}* /root/simple_shell/
